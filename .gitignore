@@ -1,0 +1,24 @@
+# Node
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# DSH ASAR embedded deps
+dsh-asar/node_modules/
+dsh-asar/node/
+
+# DSH ASAR itself (binary)
+dsh-asar/*.asar
+dsh-asar/*.asar.sig
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Git
+.git/
+
+# Work directory assets - only skill content, not raw data/cache
+dsh-asar/
